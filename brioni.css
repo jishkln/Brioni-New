@@ -1,0 +1,364 @@
+* {
+    margin: 0%;
+}
+
+
+.header-main {
+    /* background-color: black; */
+    display: flex;
+    width: 100%;
+    height: 90px;
+
+}
+
+.header-main:hover {
+    background-color: rgba(0, 0, 0, 0.805);
+
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+    width: 25%;
+    height: 70%;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+.header-menu {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+
+    /* background-color: brown; */
+}
+
+.header-menu li {
+    list-style: none;
+    padding-right: 30px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: system-ui;
+    color: #ffffff;
+}
+
+.header-menu-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+    margin-right: 40px;
+    /* padding-left: 30px; */
+
+    /* background-color: chartreuse; */
+}
+
+.header-menu-icons a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: rgb(248, 243, 243);
+}
+
+.header {
+    background-position: top;
+    background-size: cover;
+    background-image: url(images/Jude_HP__7_.jpeg);
+    height: 700px;
+}
+
+.image-div {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.image-text1 {
+
+    margin: 20px;
+    margin-top: 50px;
+
+}
+
+.image-text1 a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.image-text1 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    /* letter-spacing: 0.6992px; */
+    text-align: end;
+    font-weight: normal;
+}
+
+.image-text1-sub a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family: LabGrotesque-Medium, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    padding-left: 238px;
+
+}
+
+/* .image-fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+} */
+
+.section-img1 {
+    background-position: top;
+    background-size: cover;
+    background-image: url(images/CM_BRIONILookBook_210521_46_10566_1.jpg);
+    height: 600px;
+    /* padding-top: 40%; */
+}
+
+
+.section-img2 {
+    background-position: top;
+    background-size: cover;
+    background-image: url(images/Brioni_EdPE_Mood_Key_Visual_Landscape_300dpi_RG.jpg);
+    height: 700px;
+    /* padding-top: 40%; */
+}
+
+.section-img3 {
+    background-position: top;
+    background-size: cover;
+    background-image: url(images/BRIONI_6.jpg);
+    height: 750px;
+}
+
+.section-img4 {
+    background-position: top;
+    background-size: cover;
+    background-image: url(images/2020-12-21_Brioni_Bespoke-01-072_HERO.jpg);
+    height: 600px;
+}
+
+.section-img1 h1 {
+    text-align: end;
+    color: #ffffff;
+    padding-top: 38%;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+}
+
+.section-img1 h4 {
+    text-align: end;
+    padding-top: .5%;
+    font-size: 12px;
+    color: #ffffff;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-img2 h1 {
+    text-align: start;
+    color: #1b0909;
+    padding-top: 42%;
+    padding-left: 40px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+}
+
+.section-img2 h4 {
+    text-align: start;
+    padding-left: 40px;
+
+    padding-top: .5%;
+    font-size: 12px;
+    color: #1b0909;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 10px;
+    letter-spacing: .6px;
+}
+
+.section-img3 h1 {
+    text-align: end;
+    color: #ffffff;
+    padding-top: 48%;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+}
+
+.section-img3 h4 {
+    text-align: end;
+    padding-top: .5%;
+    font-size: 12px;
+    color: #ffffff;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-img4 h1 {
+    text-align: end;
+    color: #ffffff;
+    padding-top: 38%;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: normal;
+}
+
+.section-img4 h4 {
+    text-align: end;
+    padding-top: .5%;
+    font-size: 12px;
+    color: #ffffff;
+    padding-right: 50px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    opacity: 85.5%;
+
+}
+
+.footer-main {
+    width: 100%;
+    display: flex;
+    flex: 7;
+}
+
+.footer-main-sub1 {
+    margin: 20px;
+    margin-left: 0%;
+    padding-left: 0%;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.footer-main-sub li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 8px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+
+}
+
+.footer-main-sub a {
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    line-height: 10px;
+    color: #ffffff;
+
+}
+
+.footer-sub-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-sub-icons {
+    font-size: small;
+
+}
+
+.footer-main-sub2 {
+    flex: 2;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.footer-right li {
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+
+.footer-right a {
+
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 2px;
+    /* padding-left: 5px; */
+    color: #ffffff;
+    cursor: context-menu;
+}
+
+.footer-right hr {
+    border-bottom: 1px;
+}
+
+.footer-main-sub2 h6 {
+    color: #aaaaaa;
+    font-style: normal;
+    font-weight: normal;
+    /* font-family: LabGrotesque-Regular, sans-serif */
+    ;
+    font-size: 8px;
+    letter-spacing: .5px;
+    line-height: 11px;
+
+}
+
+.footer-right-sub {
+    margin-top: 15px;
+}
+
+.footer-right-sub a {
+    color: #aaaaaa;
+
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    opacity: 85.5%;
+
+}
+
+.end-left {
+    margin-left: 30px;
+}
+
+.end-left a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: lighter
+        /* padding-left: 5px; */
+        /* color: #ffffff; */
+        /* cursor: context-menu; */
+}
+
+.end-right {
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+.end-right p {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 2px;
+}
